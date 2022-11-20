@@ -1,0 +1,39 @@
+{
+  "name": "symbols",
+  "version": "1.0.0",
+  "description": "В этом задании предполагается, что все персонажи содержат следующий набор полей:",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode production",
+    "build": "webpack-dev-server --mode development --open --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bel-lov/symbols.git"
+  },
+  "author": "bel-lov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bel-lov/symbols/issues"
+  },
+  "homepage": "https://github.com/bel-lov/symbols#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1"
+  }
+}
